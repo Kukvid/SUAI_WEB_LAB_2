@@ -1,0 +1,92 @@
+.container {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.underline {
+    text-decoration: underline; /* Подчеркнутый текст */
+}
+
+.wavy{
+    text-decoration: black wavy underline;
+}
+
+.center {
+    text-align: center; /* Горизонтальное выравнивание по центру */
+}
+
+.right{
+    text-align: right;
+}
+
+.vertical-align {
+    vertical-align: super; /* Верхний индекс */
+}
+
+.vertical-align-sub {
+    vertical-align: sub; /* Нижний индекс */
+}
+
+.line-height {
+    line-height: 2; /* Высота строки */
+}
+
+.letter-spacing {
+    letter-spacing: 2px; /* Дополнительное расстояние между символами */
+}
+
+.word-spacing {
+    word-spacing: 10px; /* Дополнительное расстояние между словами */
+}
+
+.indent {
+    text-indent: 30px; /* Отступ красной строки */
+}
+
+.shadow{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень у текста */
+}
+
+/* Стили для маркированного списка */
+.custom-marker-ul {
+    list-style-type: square; /* Вид маркеров (квадратные) */
+}
+
+/* Стили для нумерованного списка */
+.custom-numbers {
+    list-style-type: upper-roman; /* Римские цифры */
+}
+
+/* Стили для позиционирования маркеров */
+.marker-position-1 {
+    list-style-position: inside; /* Позиция маркера внутри элемента списка */
+}
+.marker-position-2 {
+    list-style-position: outside; /* Позиция маркера вначале элемента списка */
+}
+
+/* Стили для рамки */ 
+.border-1 {
+    border-style: solid; /* Тип рамки (сплошная) */
+    border-color: #4CAF50; /* Цвет рамки (зеленый) */
+    border-width: 3px; /* Толщина рамки */
+    border-radius: 10px; /* Скругление углов */
+}
+
+.border-2 {
+    border-style: dotted; /* Тип рамки (сплошная) */
+    border-color: #2117ec; /* Цвет рамки (зеленый) */
+    border-width: 2px; /* Толщина рамки */
+    border-radius: 50px; /* Скругление углов */
+}
+
+a:hover {
+    color: #107a5f; /* Цвет гиперссылки при наведении */
+}
+
+img:hover {
+    opacity: 0.5; /* Прозрачность изображения при наведении */
+}
